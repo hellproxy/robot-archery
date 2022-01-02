@@ -98,7 +98,7 @@ We now have an infinite sum for robot 1:
 ![infinite sum 3](https://latex.codecogs.com/svg.image?=\sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{n!})
 
 This can be [plugged into Wolfram Alpha](https://www.wolframalpha.com/input/?i=sum+%28-1%29%5E%28n%2B1%29%2Fn%21%2C+n%3D1+to+infinity)
-to get an answer of ![(e-1)/e](https://latex.codecogs.com/svg.image?(e-1)/e), or 6.63212, which matches what we got from
+to get an answer of ![(e-1)/e](https://latex.codecogs.com/svg.image?(e-1)/e), or 0.63212, which matches what we got from
 our Monte Carlo simulation!
 
 ## More players
