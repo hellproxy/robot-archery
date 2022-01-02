@@ -1,3 +1,5 @@
+package java;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -21,10 +23,10 @@ import static java.util.stream.Collectors.*;
 /**
  * @author harrydent
  */
-public class RobotArchery {
+public class MonteCarloArchery {
 
     public static void main(String[] args) {
-        var tournament = new RobotArchery(2, 100000000, 1000000, 24);
+        var tournament = new MonteCarloArchery(4, 100000000, 1000000, 24);
         tournament.playMatches();
     }
 
@@ -37,10 +39,10 @@ public class RobotArchery {
     private final int parallelism;
     private final List<Integer> initialPlayerList;
 
-    public RobotArchery(final int nPlayers,
-                        final long matches,
-                        final long batchSize,
-                        final int parallelism) {
+    public MonteCarloArchery(final int nPlayers,
+                             final long matches,
+                             final long batchSize,
+                             final int parallelism) {
         this.matches = matches;
         this.batchSize = batchSize;
         this.parallelism = parallelism;

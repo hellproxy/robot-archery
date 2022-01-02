@@ -117,3 +117,5 @@ to get an answer of ![(e-1)/e](https://latex.codecogs.com/svg.image?(e-1)/e), or
 our Monte Carlo simulation!
 
 ## More players
+
+I continued with the previous methodology of 'identify which patterns'
