@@ -1,10 +1,10 @@
 # Robot Archery
 
-https://www.janestreet.com/puzzles/robot-archery-index/
+I recently found out that Jane Street put out monthly [puzzles](https://www.janestreet.com/puzzles/) on their website. Having a bit of time to kill between 2021 Christmas and New Years, I thought I'd have a go at their December [Robot Archery challenge](https://www.janestreet.com/puzzles/robot-archery-index/).
 
 ## TLDR
 
-0.1834376509
+Probability of Darrin winning = 0.1834376509
 
 ## Decoding the puzzle
 
