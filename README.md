@@ -67,6 +67,8 @@ Let's start with shot 3. Just like above, let's not worry about *when* the shots
 
 Let's imagine we're looking at the target which has 3 arrows in it. The arrows can be ordered by their closeness to the bullseye. We know there are 3! possible orderings, but which of these orderings mean that robot 2 won **on this shot**?
 
+> ℹ️ From here on, I'll be using sequences of numbers to describe the outcomes of archery matches. These sequences represent the **spatial** ordering of the numbers, with the first element being the furthest from the bullseye. For example, the sequence `1243` means that the 1st shot was furthest away, followed by the 2nd, and 4th. The 3rd shot which was the closest to the bullseye.
+
 ```
 123     no
 132     yes!
